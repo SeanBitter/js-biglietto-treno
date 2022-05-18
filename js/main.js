@@ -30,9 +30,12 @@ let prezzoFinale = kmUtente * prezzoAlKm;
 
 // condizioni sconto sull'età
 if (etaUtente < 18) {
-    console.log(prezzoFinale.toFixed(2) = kmUtente * prezzoScontatoUnder18);
-} if (etaUtente > 64) {
-    console.log(prezzoFinale.toFixed(2) = kmUtente * prezzoScontatoOver65);
+    prezzoFinale = kmUtente * prezzoScontatoUnder18
+    console.log(prezzoFinale.toFixed(2));
+} 
+if (etaUtente > 64) {
+    prezzoFinale = kmUtente * prezzoScontatoOver65
+    console.log(prezzoFinale.toFixed(2));
 } else console.log(prezzoFinale.toFixed(2));
 
 
