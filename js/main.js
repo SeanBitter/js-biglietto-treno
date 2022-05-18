@@ -33,11 +33,12 @@ if (etaUtente < 18) {
     prezzoFinale = kmUtente * prezzoScontatoUnder18
     console.log(prezzoFinale.toFixed(2));
 } 
-if (etaUtente > 64) {
+else if (etaUtente > 64) {
     prezzoFinale = kmUtente * prezzoScontatoOver65
     console.log(prezzoFinale.toFixed(2));
-} else console.log(prezzoFinale.toFixed(2));
-
+} else {
+    console.log(prezzoFinale.toFixed(2));
+}
 
 const prezzoBiglietto = document.getElementById("prezzo-biglietto");
 
