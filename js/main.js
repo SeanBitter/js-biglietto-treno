@@ -40,7 +40,7 @@ const prezzoBiglietto = document.getElementById("prezzo-biglietto");
 
 prezzoBiglietto.innerHTML = `
 <ul>
-    <li>Km: ${etaUtente}</li>
-    <li>Età: ${kmUtente}</li>
+    <li>Età: ${etaUtente}</li>
+    <li>Km: ${kmUtente}</li>
     <li>Prezzo finale: ${prezzoFinale.toFixed(2)} €</li>
 </ul>`;
